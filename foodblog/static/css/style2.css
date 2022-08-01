@@ -1,0 +1,81 @@
+/* utilitie */
+h1,h4,h5{
+    margin: 0;
+}
+.btn-dark,.btn__light{
+    display: inline-block;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    padding:15px 25px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+.btn-dark:hover{
+    background-color: #fff;
+    color: #f4511e;
+}
+.margin-top{
+    margin-top: 15px;
+}
+.image__responsive{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+.bg__dark{
+    background-color: #212121;
+}
+.bg__light{
+    background-color: #f4511e !important;
+}
+.txt-light{
+    color:#fff;
+}
+.btn__light{
+    background-color: #f4511e ;
+}
+.btn__light:hover{
+    color: #000;
+    background-color: #fff;
+}
+/* body secftion started wanna hav fun  */
+body{
+   margin: 0;
+   padding: 0;
+   font-family: "poppins",sans-serif;
+}
+*{
+    box-sizing: border-box ;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #212121;
+    display: flex;
+    /* justify-content: center; */
+
+}
+.navbar li{
+/* align-items: center; */
+/* text-align: center; */
+padding: 17px 15px;
+color: #f4511e;
+font-size: large;
+
+}
+.navbar ul li{
+    display: inline-block;
+
+}
+
+.navbar img{
+    margin: 5px;
+    padding: 5px;
+}
+.container_my{
+    padding: 0;
+}
